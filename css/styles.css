@@ -12,3 +12,8 @@
 .second {
   float: right;
 }
+
+.columns {
+  width: 300px;
+  float: left;
+}
