@@ -1,7 +1,6 @@
 .sidebar {
   width: 30%;
-  float: right;
-  background-color: purple;
+  background: radial-gradient(pink, yellow, #9198e5);;
   border: 3px solid black;
   margin: 2px;
   padding: 2px;
@@ -20,7 +19,24 @@
 
 .columns {
   width: 300px;
-  float: left;
-  background-color: blue;
+  background: linear-gradient(#e66465, #9198e5);
 
+}
+
+@media screen and (min-width: 768px) {
+  .columns {
+    width: 300px;
+    float: left;
+    padding: 20px;
+  }
+  .sidebar {
+    width: 300px;
+    float: right;
+    padding: 20px;
+  }
+}
+
+h1 {
+  font-family: impact;
+  font-size: 50px;
 }
