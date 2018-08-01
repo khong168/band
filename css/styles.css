@@ -3,3 +3,12 @@
   float: right;
   background-color: purple;
 }
+
+.first {
+  float: left;
+  width: 50%;
+}
+
+.second {
+  float: right;
+}
